@@ -26,6 +26,6 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64/v8
           push: true
-          tags: ghcr.io/Lapis-lwy/code-server:latest
+          tags: ghcr.io/lapis-lwy/code-server:latest
 
       
