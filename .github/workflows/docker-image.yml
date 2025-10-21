@@ -23,10 +23,8 @@ jobs:
     - name: Build and push
       run: 
         |
-        docker build . --file Dockerfile --tag ghcr.io/lapis-lwy/code-server:4.103.3
-        docker push ghcr.io/lapis-lwy/code-server:4.103.3
-        docker tag ghcr.io/lapis-lwy/code-server:4.103.3 ghcr.io/lapis-lwy/code-server:latest
-        docker push ghcr.io/lapis-lwy/code-server:latest
+        docker build . --file Dockerfile --tag ghcr.io/lapis-lwy/code-server:4.105.3
+        docker push ghcr.io/lapis-lwy/code-server:4.105.3
       
       
 
